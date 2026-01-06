@@ -7,6 +7,9 @@
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-image: url("../images/developer.png") ,url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 23px 40px ,bottom right;
 }
 
 
@@ -38,6 +41,7 @@ nav{
     font-weight: bold;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 
 nav .logo h2{
@@ -58,3 +62,240 @@ nav .menu a{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
+
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 46px 13px 130px 255px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 676px;
+}
+
+.banner_img .img1{
+    max-width: 676px;
+    vertical-align: middle;
+    
+}
+
+#banner .banner_btn{
+    display: flex;
+    gap: 3px;
+}
+
+
+#banner .banner_content{
+    max-width: 585px;
+}
+
+#banner .banner_content h2{
+    font-size: 45;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner_content h1{
+    font-size: 85;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .banner_content p{
+    font-size: 18;
+    font-weight:100;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#about{
+    max-width: 1140;
+    max-height: 550;
+    
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#about .about-contaiar{
+    max-width: 827px;
+    max-height: 288px;
+    
+    margin: 131px 156px;
+    text-align: center;
+
+}
+
+#about .about-contaiar .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-contaiar h1{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#about p , #skill p ,#edu p ,footer p{
+    font-size: 18;
+    font-weight:100;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#about .about-contaiar .info-cart h6{
+    color: #757575;
+}
+
+#about .about-contaiar .info-cart h4{
+    font-size: 20px;
+    color: #474747;
+}
+
+#skill{
+    
+    margin: 130px 230px;
+    
+}
+
+#skill .data{
+    text-align: center;
+}
+
+#skill .skill-info{
+    display: flex;
+    gap: 24px;
+}
+
+#skill .skill-continer{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#skill .skill-info .skill-name{
+    
+    height:377px ;
+    width: 267px;
+    box-shadow: 0px 6px 50px 0px #c0bfbf;
+    border-radius: 5px;
+    
+}
+.skill-name img{
+    margin: 30px;
+    width: 44px;
+    height: 44px;
+}
+.skill-name h2{
+    margin-left:  30px;
+    margin-bottom:  20px;
+
+}
+#skill .work{
+    margin-bottom: 30px;
+}
+
+#skill #header{
+    margin: 0px 287px 30px 287px;
+}
+
+#skill .skill-info .skill-name p{
+    margin: 30px 33px;
+}
+
+#summary{
+    max-width: 455px;
+    margin: 0px auto;
+    margin-bottom: 130px;
+}
+
+#edu{
+    display: flex;
+    justify-content:space-around;
+    
+    margin: 0px 230px;
+    margin-bottom: 50px;
+}
+#edu .academy , .exp{
+    width: 558px;
+    
+}
+#edu  hr{
+    margin-bottom: 30px;
+    width: 558px;
+}
+
+#edu h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #474747;
+}
+#edu h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+#edu h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+#cv-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+    
+}
+#footer{
+    background-color: #FFF8F3;
+    
+
+}
+#footer .footer-continar{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 130px 230px;
+}
+#footer p{
+    max-width: 562px;
+
+}
+#footer .footer-continar h2{
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 305px;
+
+}
+
+#footer .footer-continar input{
+    margin-bottom: 24px;
+    width: 460px;
+    height: 60px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+#footer .footer-continar textarea{
+    width: 460px;
+    height: 180px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+
