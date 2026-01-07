@@ -179,6 +179,10 @@ nav .menu a{
     margin-bottom: 10px;
 }
 
+#skill .data:hover{
+    backdrop-filter: blur(100px);
+}
+
 #skill .skill-info{
     display: flex;
     gap: 24px;
@@ -199,6 +203,10 @@ nav .menu a{
     border-radius: 5px;
     backdrop-filter: blur(20px);
     
+}
+#skill .skill-info .skill-name:hover{
+    backdrop-filter: blur(100px);
+    width: 367px;
 }
 .skill-name img{
     margin: 30px;
