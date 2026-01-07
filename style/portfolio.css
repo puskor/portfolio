@@ -110,7 +110,6 @@ nav .menu a{
 #about{
     max-width: 1140;
     max-height: 550;
-    
     margin: 130px 230px;
     background-color: #FFF8F3;
     align-items: center;
@@ -161,16 +160,29 @@ nav .menu a{
 #skill{
     
     margin: 130px 230px;
+    padding: 50px 0px ;
+
+    background-image: url(/images/pteam2.jpg);
+    /* background-color: #FD6E0A; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
     
 }
 
 #skill .data{
     text-align: center;
+    backdrop-filter: blur(30px);
+    padding: 10px 0px;
+    margin-bottom: 10px;
 }
 
 #skill .skill-info{
     display: flex;
     gap: 24px;
+    
 }
 
 #skill .skill-continer{
@@ -185,6 +197,7 @@ nav .menu a{
     width: 267px;
     box-shadow: 0px 6px 50px 0px #c0bfbf;
     border-radius: 5px;
+    backdrop-filter: blur(20px);
     
 }
 .skill-name img{
@@ -203,10 +216,12 @@ nav .menu a{
 
 #skill #header{
     margin: 0px 287px 30px 287px;
+    color: #d41b6e;
 }
 
-#skill .skill-info .skill-name p{
+#skill .skill-info  p{
     margin: 30px 33px;
+    color: white;
 }
 
 #summary{
@@ -265,8 +280,8 @@ nav .menu a{
 #footer .footer-continar{
     display: flex;
     justify-content: space-around;
-    
     margin: 130px 230px;
+    height: 780px;
 }
 #footer p{
     max-width: 562px;
@@ -284,8 +299,9 @@ nav .menu a{
     width: 460px;
     height: 60px;
     padding-left: 5px;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 5px;
+    
 
 }
 
@@ -295,6 +311,12 @@ nav .menu a{
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
+    margin-bottom: 24px;
+    
+}
+
+#fbtn{
+    margin-bottom: 130px;
 }
 
 
